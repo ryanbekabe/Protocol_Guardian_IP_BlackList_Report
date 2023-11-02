@@ -11,7 +11,7 @@ git branch -M main
 git push -u origin main
 
 
-List IP Blocked By Protocol Guardian 092023
+List IP Blocked By Protocol Guardian 09 s/d 10 - 2023
 
 Daftar IP yang diblockir oleh Protocol Guardian (v.8f) saat ini meliputi:
 
