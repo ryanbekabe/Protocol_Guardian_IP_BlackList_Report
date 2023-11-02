@@ -1,0 +1,203 @@
+# BEGIN WordPress
+# The directives (lines) between "BEGIN WordPress" and "END WordPress" are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+
+# BEGIN NinjaFirewall
+<IfModule mod_php7.c>
+   php_value auto_prepend_file /var/www/html/web/web/lab_hanyajasa.com/firewall.php
+   #php_value auto_prepend_file /var/www/html/web/web/firewall-eye.php
+</IfModule>
+# END NinjaFirewall
+
+Order Allow,Deny
+
+Deny from 69.63.64.21
+Deny from 13.74.217.27
+Deny from 67.205.159.250
+Deny from 13.95.232.11
+Deny from 50.63.17.205
+Deny from 149.50.131.6
+Deny from 20.102.109.145
+Deny from 65.1.124.122
+Deny from 75.119.150.42
+Deny from 57.129.1.142
+Deny from 23.111.202.243
+Deny from 66.29.147.160
+Deny from 47.242.107.149
+Deny from 92.205.146.3
+Deny from 134.119.0.161
+Deny from 87.255.62.199
+Deny from 192.169.145.43
+Deny from 195.74.38.171
+Deny from 43.128.44.243
+Deny from 103.120.176.155
+Deny from 195.242.98.204
+Deny from 142.132.134.140
+Deny from 124.40.255.186
+Deny from 198.13.33.86
+Deny from 35.239.231.194
+Deny from 203.145.232.199
+Deny from 208.109.34.70
+Deny from 212.227.132.239
+Deny from 166.62.122.244
+Deny from 143.198.173.61
+Deny from 208.113.190.66
+Deny from 69.163.152.115
+Deny from 92.205.4.72
+Deny from 208.113.171.197
+Deny from 50.62.182.245
+Deny from 185.12.126.229
+Deny from 40.77.111.208
+Deny from 82.223.110.93
+Deny from 51.210.12.202
+Deny from 132.148.76.79
+Deny from 199.231.191.196
+Deny from 148.66.147.12
+Deny from 37.61.206.37
+Deny from 185.95.0.123
+Deny from 173.212.223.248
+Deny from 87.106.198.168
+Deny from 150.162.233.150
+Deny from 185.176.93.21
+Deny from 161.132.40.128
+Deny from 205.196.219.77
+Deny from 148.72.246.189
+Deny from 185.78.21.43
+Deny from 8.213.24.28
+Deny from 194.169.175.21
+Deny from 185.92.194.80
+Deny from 37.97.201.80
+Deny from 165.232.78.206
+Deny from 137.184.195.252
+Deny from 20.188.118.48
+Deny from 20.188.118.48
+Deny from 79.137.36.176
+Deny from 92.204.215.14
+Deny from 65.109.69.21
+Deny from 8.217.49.3
+Deny from 103.180.120.66
+Deny from 93.191.158.3
+Deny from 8.209.74.184
+Deny from 138.68.81.93
+Deny from 51.83.30.89
+Deny from 213.136.66.130
+Deny from 54.38.79.53
+Deny from 54.38.79.53
+Deny from 95.173.161.246
+Deny from 178.128.184.226
+Deny from 165.232.145.115
+Deny from 51.91.151.60
+Deny from 213.136.89.198
+Deny from 160.153.248.217
+Deny from 20.38.42.162
+Deny from 148.66.134.3
+Deny from 103.191.76.90
+Deny from 192.3.150.3
+Deny from 35.158.145.35
+Deny from 95.181.173.99
+Deny from 64.235.50.20
+Deny from 139.59.17.249
+Deny from 139.59.17.249
+Deny from 149.154.161.253
+Deny from 223.26.138.60
+Deny from 85.215.107.95
+Deny from 159.89.5.211
+Deny from 39.101.207.82
+Deny from 133.130.103.36
+Deny from 24.199.106.99
+Deny from 173.249.19.94
+Deny from 43.224.154.85
+Deny from 52.242.231.163
+Deny from 8.219.230.152
+Deny from 124.156.227.102
+Deny from 136.243.92.92
+Deny from 198.12.253.60
+Deny from 51.38.75.32
+Deny from 23.81.206.207
+Deny from 142.93.220.46
+Deny from 139.59.64.208
+Deny from 216.128.182.84
+Deny from 35.180.182.153
+Deny from 104.210.214.192
+Deny from 47.101.140.232
+Deny from 183.80.59.170
+Deny from 49.12.211.251
+Deny from 103.174.103.116
+Deny from 138.68.168.147
+Deny from 150.95.115.216
+Deny from 185.25.148.196
+Deny from 20.193.128.5
+Deny from 20.193.128.5
+Deny from 173.231.198.137
+Deny from 37.32.10.43
+Deny from 37.32.10.43
+Deny from 161.97.117.183
+Deny from 23.105.110.200
+Deny from 81.70.207.39
+Deny from 45.40.133.116
+Deny from 144.76.67.178
+Deny from 208.97.158.19
+Deny from 103.112.123.217
+Deny from 212.118.8.35
+Deny from 116.206.62.214
+Deny from 43.132.170.44
+Deny from 137.184.88.156
+Deny from 5.196.151.201
+Deny from 78.128.60.216
+Deny from 137.184.145.72
+Deny from 212.90.148.126
+Deny from 103.57.222.17
+Deny from 103.177.81.238
+Deny from 194.163.130.228
+Deny from 107.180.94.13
+Deny from 71.6.165.113
+Deny from 3.26.24.150
+Deny from 167.86.76.130
+Deny from 209.97.168.81
+Deny from 209.97.169.15
+Deny from 45.236.130.95
+Deny from 165.227.228.99
+Deny from 172.81.118.235
+Deny from 67.205.45.158
+Deny from 68.178.149.194
+Deny from 50.70.193.177
+Deny from 194.169.175.93
+Deny from 194.169.175.93
+Deny from 194.169.175.93
+Deny from 194.169.175.93
+Deny from 51.83.138.153
+Deny from 194.169.175.93
+Deny from 161.97.84.174
+Deny from 208.109.24.33
+Deny from 35.205.224.248
+Deny from 184.170.240.203
+Deny from 184.170.240.203
+Deny from 45.13.132.125
+Deny from 191.101.2.90
+Deny from 146.56.137.121
+Deny from 134.122.36.150
+Deny from 43.154.58.118
+Deny from 208.113.130.214
+Deny from 198.187.29.74
+Deny from 128.199.79.157
+Deny from 109.72.149.192
+Deny from 51.254.30.145
+Deny from 13.232.56.219
+Deny from 197.243.23.5
+Deny from 51.77.230.29
+Deny from 151.236.37.208
+Deny from 129.146.76.129
+Deny from 129.146.76.129
+Allow from all

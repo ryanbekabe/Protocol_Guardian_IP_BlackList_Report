@@ -4,7 +4,7 @@ git init
 
 git add .
 
-git commit -m "List IP Blocked By Protocol Guardian 092023"
+git commit -m "List IP Blocked By Protocol Guardian 102023"
 
 git branch -M main
 
@@ -13,7 +13,7 @@ git push -u origin main
 
 List IP Blocked By Protocol Guardian 092023
 
-Daftar IP yang diblockir oleh Protocol Guardian (v.3d) saat ini meliputi:
+Daftar IP yang diblockir oleh Protocol Guardian (v.8f) saat ini meliputi:
 
 1. Blockir dari serangan website menggunakan htaccess, yang proses blocknya berdasarkan ukuran file, jika daftar blockir sudah mencapai byte tertentu, maka IP yang diblockir tersebut sudah boleh kembali mengakses halaman website.
 
